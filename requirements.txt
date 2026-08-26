@@ -3,3 +3,4 @@ ultralytics==8.4.129
 opencv-python-headless==4.11.0.86
 pandas==3.0.5
 numpy==2.5.2
+lap==0.5.13
