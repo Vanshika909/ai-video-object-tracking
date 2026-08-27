@@ -4,8 +4,16 @@ import tempfile
 import pandas as pd
 import os
 from ultralytics import YOLO
+import sys
 
+st.write("Python version:", sys.version)
 
+try:
+    import cv2
+    st.write("OpenCV version:", cv2.__version__)
+except Exception as e:
+    st.error(f"OpenCV error: {e}")
+    st.stop()
 # =========================================================
 # PAGE CONFIG
 # =========================================================
